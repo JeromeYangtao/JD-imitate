@@ -1,0 +1,195 @@
+/*通用*/
+body{
+	font:12px "microsoft yahei",Arial,Verdana;
+	color:#666;
+	margin:0px;
+	padding:0px;
+}
+dl,dt,dd{
+	margin:0px;
+	padding:0px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border:none;
+}
+input{
+	border:none;
+}
+.lf{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+/*整体布局*/
+#top_box,#top_main,#nav,#banner,#main,#foot_box,#footer{
+	width:1211px;
+	margin:0px auto;
+}
+#top{
+	width:100%;
+	height:30px;
+	background:#F7F7F7;
+	line-height:30px;
+	border-bottom:1px solid #F0F0F0;
+}
+#top_box{
+	height:30px;
+}
+#top_main{
+	height:60px;
+	padding:15px 0;
+}
+#nav{
+	height:40px;
+}
+#foot_box{
+	height:170px;
+	clear:left;
+}
+#footer{
+	height:180px;
+}
+/****************v02**************/
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color:#FF0700;
+}
+/**顶部内容-收藏京东*/
+#top_box>img{
+	display:block;
+	float:left;
+	margin:9px 4px;
+}
+#top_box>a{
+	display:block;
+	float:left;
+	line-height:30px;
+}
+/*顶部右侧链接菜单*/
+#top_box ul li{
+	float:left;
+	text-align:center;
+	position:relative;
+	margin-right:5px;
+	z-index:1;
+}
+#top_box ul li b{
+	height:12px;
+	border-left:1px solid #DDD;
+	padding:0 5px 0 0;
+}
+#top_box li.vip a{
+	background-image:url(Images/vip.jpg);
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:left center;
+}
+#top_box li.service>a{
+	/*背景图*/
+	border:1px solid transparent;
+	padding:0px 15px;
+}
+#top_box li.service>a:hover{
+	/*背景图*/
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-bottom:0px;
+	z-index:10;
+}
+/*"客户服务的弹出菜单"*/
+#service_items{
+	display:block;
+	position:absolute;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-top:0px;
+	/*box-shadow:0 0 10px #ddd;*/
+	width:78px;
+	left:6px;
+	top:23px;
+	z-index:5;
+}
+#service_items li{
+	padding-left:10px;
+}
+/*搜索框 search_box*/
+#search_box{
+	width:510px;
+	padding:4px 80px 4px 4px;
+	position:relative;
+}
+div.search{
+	width:500px;
+	height:30px;
+	margin-bottom:5px;
+	background-color:#E4393C;
+	border:3px solid #E4393C;
+}
+input.text{
+	width:405px;
+	height:20px;
+	padding:5px;
+	background-color:#fff;
+	line-height:20px;
+	color:#999;
+	font-family:Arial,"Microsoft yahei";
+}
+input.button{
+	width:75px;
+	background-color:#E4393C;
+	color:#fff;
+	font-size:14px;
+	height:30px;
+	font-weight:bold;
+}
+/*热门搜索*/
+div.hot_words{
+	height:18px;
+	color:#999;
+	overflow:hidden;
+}
+div.hot_words a,div.hot_words span{
+	margin-right:10px;
+	color:#999;
+}
+/*我的京东*/
+#my_jd{
+	width:65px;
+	height:30px;
+	background-image:url(Images/iconlist_2.png);
+	background-repeat:no-repeat;
+	background-position:-116px -24px;
+	padding:0 8px 0 25px;
+	background-color:#F7F7F7;
+	border:1px solid #EFEFEF;
+	line-height:30px;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+	margin-top:10px;
+}
+
+#my_jd b{
+	border-style:solid;
+	border-width:5px;
+	border-color:#ccc transparent transparent transparent;
+	position:relative;
+	top:10px;
+	left:3px;
+}
+
+#my_jd:hover{
+	background-color:#fff;
+	background-position:-116px -54px;
+}
